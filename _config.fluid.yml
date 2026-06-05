@@ -1,0 +1,70 @@
+# Theme Config
+# Docs: https://fluid-dev.github.io/hexo-fluid-docs/
+
+# Nav Bar
+navbar:
+  blog_title: laeditor's Blog
+  ground_color: "#2d2d2d"
+  menu:
+    - { key: "首页", link: "/", icon: "iconfont icon-home-fill" }
+    - { key: "归档", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    - { key: "关于", link: "/about/", icon: "iconfont icon-user-fill" }
+
+# Index Page
+index:
+  slogan:
+    enable: true
+    text: 这是一个小而美的博客
+
+# Post Page
+post:
+  meta:
+    author:
+      enable: true
+    date:
+      enable: true
+      format: "yyyy-MM-dd"
+    wordcount:
+      enable: true
+      format: "{} 字"
+    min2read:
+      enable: true
+      format: "{} 分钟"
+  toc:
+    enable: true
+    headingSelector: "h1,h2,h3"
+
+# Footer
+footer:
+  content: '<a href="https://github.com/laeditor">GitHub</a>'
+
+# Dark Mode
+dark_mode:
+  default: auto
+
+# Search
+search:
+  enable: true
+
+# Comments (disabled by default)
+comment:
+  enable: false
+
+# Analytics (disabled by default)
+analytics:
+  enable: false
+
+# About Page
+about:
+  enable: true
+  banner_img: /img/default.png
+  avatar: /img/avatar.png
+  name: laeditor
+  intro: 技术爱好者
+
+# 404 Page
+page404:
+  enable: true
+  banner_img: /img/default.png
+  banner_img_height: 80
+  subtitle: 页面走丢了

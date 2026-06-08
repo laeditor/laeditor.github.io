@@ -9,6 +9,7 @@ navbar:
     - { key: "首页", link: "/", icon: "iconfont icon-home-fill" }
     - { key: "归档", link: "/archives/", icon: "iconfont icon-archive-fill" }
     - { key: "关于", link: "/about/", icon: "iconfont icon-user-fill" }
+    - { key: "友链", link: "/links/", icon: "iconfont icon-link-fill" }
 
 # Index Page
 index:
@@ -61,6 +62,26 @@ about:
   avatar: /img/avatar.png
   name: laeditor
   intro: 技术爱好者
+
+# Links Page
+links:
+  enable: true
+  banner_img: /img/default.png
+  banner_img_height: 60
+  banner_mask_alpha: 0.3
+  items:
+    - {
+      title: "laeditor's Blog",
+      intro: "技术爱好者",
+      link: "https://laeditor.github.io",
+      avatar: "https://github.com/laeditor.png"
+    }
+  onerror_avatar: /img/avatar.png
+  custom:
+    enable: false
+    content: ''
+  comments:
+    enable: false
 
 # 404 Page
 page404:
